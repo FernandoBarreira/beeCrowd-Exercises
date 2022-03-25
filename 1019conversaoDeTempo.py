@@ -1,9 +1,10 @@
-t = int(input())
-hr = t // 3600
-t = t - hr * 3600
-min = t // 60
-sec = t % 60
-print(f'{hr}:{min}:{sec}')
+tempo = int(input())
+hora = tempo // 3600
+tempo = tempo - hora * 3600
+minuto = tempo // 60
+segundo = tempo % 60
+print(f'{hora}:{minuto}:{segundo}')
+
 
 
 
